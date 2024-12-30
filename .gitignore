@@ -1,0 +1,62 @@
+# Ignore logs folder
+logs/
+
+# Model Zip files
+*.zip
+*.h5
+*.pkl
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+lib/
+MANIFEST
+.idea
+
+# R code
+RStudio_Code/.Rproj.user
+RStudio_Code/.Rhistory
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.Rproj.user
